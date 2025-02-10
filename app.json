@@ -1,4 +1,16 @@
 {
-  "name": "lolo_mobile",
-  "displayName": "lolo_mobile"
+  "expo": {
+    "name": "lolo_mobile",
+    "slug": "lolo_mobile",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.lolo.mobile"
+    },
+    "android": {
+      "package": "com.lolo.mobile"
+    },
+    "newArchEnabled": true
+  }
 }
